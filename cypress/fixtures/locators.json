@@ -1,0 +1,7 @@
+{
+    "login" : {
+        "username": "[data-cy='cy-email-input-field-header']",
+        "password": "[data-cy='cy-password-input-filed-header']",
+        "loginBtn": "[data-cy='cy-login-btn-header']"
+    }
+}
