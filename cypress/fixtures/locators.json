@@ -3,5 +3,22 @@
         "username": "[data-cy='cy-email-input-field-header']",
         "password": "[data-cy='cy-password-input-filed-header']",
         "loginBtn": "[data-cy='cy-login-btn-header']"
+    },
+    "registration" : {
+        "signUpBtn": "[data-cy='signup_btn_header']",
+        "email": "[data-cy='cy-signup-modal-email']",
+        "username":"[data-cy='cy-signup-modal-username']",
+        "password": "[data-cy='cy-signup-modal-password']",
+        "currency": "[data-cy='cy-signup-modal-currency-dropdown']",
+        "currencyList": "ul",
+        "currencyListItem": ".dropdown__menu-item",
+        "termsAndConditions": ".checkbox__input",
+        "submitBtn": "[data-cy='cy-signup-modal-signup-btn']",
+        "noBonusBtn": ".newsletter-link",
+        "gamesModal": "[data-cy='cy-skip-button']",
+        "backToHomePage": "[data-cy='cy-shared-continue-button']",
+        "paymentModal": "[data-cy='cy-close-modal-btn']",
+        "headerUsername": "[data-cy='cy-nickname']",
+        "headerCurrency": "[data-cy='cy-header-currency']"
     }
 }
