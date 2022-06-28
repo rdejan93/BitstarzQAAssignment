@@ -2,7 +2,8 @@
     "login" : {
         "username": "[data-cy='cy-email-input-field-header']",
         "password": "[data-cy='cy-password-input-filed-header']",
-        "loginBtn": "[data-cy='cy-login-btn-header']"
+        "loginBtn": "[data-cy='cy-login-btn-header']",
+        "headerCashoutBtn": "[data-cy='cy-cashout_btn_header']"
     },
     "registration" : {
         "signUpBtn": "[data-cy='signup_btn_header']",
@@ -19,6 +20,7 @@
         "backToHomePage": "[data-cy='cy-shared-continue-button']",
         "paymentModal": "[data-cy='cy-close-modal-btn']",
         "headerUsername": "[data-cy='cy-nickname']",
-        "headerCurrency": "[data-cy='cy-header-currency']"
+        "headerCurrency": "[data-cy='cy-header-currency']",
+        "sideBar": ".navbar__sidebar-btn"
     }
 }

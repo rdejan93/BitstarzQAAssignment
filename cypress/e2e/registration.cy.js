@@ -3,8 +3,8 @@
 const locators = require("../fixtures/locators.json")
 let randomInt = Math.floor(Math.random() * 100000) + 1
 const username = "testertesteric" + randomInt
-const email = "testertesteric2+" + randomInt + "@gmail.com"
-const password = "Test1234"
+export const email = "testertesteric2+" + randomInt + "@gmail.com"
+export const password = "Test1234"
 let currency = ""
 
 describe("Registration test", () => {
@@ -35,5 +35,10 @@ describe("Registration test", () => {
         cy.get(locators.registration.backToHomePage).click()
         cy.get(locators.registration.headerUsername).should('have.text', username)
         cy.get(locators.registration.headerCurrency).should('contain.text', currency)
+    })
+
+    after("Logout user", () => {
+       cy.clearCookies()
+       cy.clearLocalStorage()
     })
 })
